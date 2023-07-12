@@ -17,25 +17,26 @@ export default function Home() {
                             <rect x="15" y="4" width="6" height="16" rx="1"></rect>
                             <path d="M4 20h14"></path>
                         </svg>
-                        Thotrang Playground
+                        Cebbb's Playground
                     </div>
                 </a>
                     <nav>
                         <ul className="flex gap-x-3 font-medium text-gray-200">
                             <li className="hover:text-white"><a href="/posts/">Blogs</a></li>
                             <li className="hover:text-white"><a href="/">GitHub</a></li>
-                            <li className="hover:text-white"><a href="/">Twitter</a></li>
+                            <li className="hover:text-white"><a href="/login">Login</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
             <div className="mx-auto max-w-screen-lg px-3 py-6">
                 <div className="flex flex-col items-center md:flex-row md:justify-between md:gap-x-24">
-                    <div><h1 className="text-3xl font-bold">Hi there, I'm <span
-                        className="bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-transparent">Ixartz</span> 👋
-                    </h1><p className="mt-6 text-xl leading-9">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Phasellus <a className="text-cyan-400 hover:underline" href="/">malesuada</a> nisi
-                        tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet, <a className="text-cyan-400 hover:underline" href="/">consectetur</a>adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    <div><h1 className="text-3xl font-bold">Xin chào, I'm <span
+                        className="bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-transparent">Cebbb</span> 👋
+                    </h1><p className="mt-6 text-xl leading-9">A developer from Hanoi, Vietnam.
+                        Love <a className="text-cyan-400 hover:underline" href="/">coding</a> and
+                        want to make funny webapp and help people for something. This is my <a className="text-cyan-400 hover:underline" href="/">playground</a>. Really happy if you can find something funny here. I hope giving you smile and a little positive energy for your day.
+                        <br/> Luv ya !!!</p>
                         <div className="mt-3 flex gap-1"><a href="/"><img className="h-12 w-12 hover:translate-y-1"
                                                                           src="/assets/twitter-icon.png"
                                                                           alt="Twitter icon" loading="lazy"></img></a><a
