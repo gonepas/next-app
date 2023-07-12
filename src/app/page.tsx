@@ -42,16 +42,16 @@ export default function Home() {
                         <div className="mt-3 flex gap-1"><a href="/"><img className="h-12 w-12 hover:translate-y-1"
                                                                           src="/assets/twitter-icon.png"
                                                                           alt="Twitter icon" loading="lazy"></img></a><a
-                            href="/"><img className="h-12 w-12 hover:translate-y-1"
-                                          src="/assets/facebook-icon.png" alt="Facebook icon" loading="lazy"></img></a><a
-                            href="/"><img className="h-12 w-12 hover:translate-y-1"
-                                          src="/assets/linkedin-icon.png" alt="Linkedin icon" loading="lazy"></img></a><a
-                            href="/"><img className="h-12 w-12 hover:translate-y-1"
-                                          src="/assets/youtube-icon.png" alt="Youtube icon" loading="lazy"></img></a>
+                            href="/"><Image className="h-12 w-12 hover:translate-y-1"
+                                          src="/assets/facebook-icon.png" alt="Facebook icon" loading="lazy"></Image></a><a
+                            href="/"><Image className="h-12 w-12 hover:translate-y-1"
+                                          src="/assets/linkedin-icon.png" alt="Linkedin icon" loading="lazy"></Image></a><a
+                            href="/"><Image className="h-12 w-12 hover:translate-y-1"
+                                          src="/assets/youtube-icon.png" alt="Youtube icon" loading="lazy"></Image></a>
                         </div>
                     </div>
-                    <div className="shrink-0"><img className="h-80 w-64" src="/assets/avatar.svg"
-                                                   alt="Avatar image" loading="lazy"></img></div>
+                    <div className="shrink-0"><Image className="h-80 w-64" src="/assets/avatar.svg"
+                                                   alt="Avatar image" loading="lazy"></Image></div>
                 </div>
             </div>
             <div className="mx-auto max-w-screen-lg px-3 py-6">
@@ -60,9 +60,9 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col gap-6">
                     <div className="flex flex-col items-center gap-x-8 rounded-md bg-slate-800 p-3 md:flex-row">
-                        <div className="shrink-0"><a href="/"><img className="h-36 w-36 hover:translate-y-1"
+                        <div className="shrink-0"><a href="/"><Image className="h-36 w-36 hover:translate-y-1"
                                                                    src="/assets/project-web-design.png"
-                                                                   alt="Project Web Design" loading="lazy"></img></a></div>
+                                                                   alt="Project Web Design" loading="lazy"></Image></a></div>
                         <div>
                             <div className="flex flex-col items-center gap-y-2 md:flex-row"><a
                                 className="hover:text-cyan-400" href="/">
@@ -90,9 +90,9 @@ export default function Home() {
                                 hendrerit dui odio id enim.</p></div>
                     </div>
                     <div className="flex flex-col items-center gap-x-8 rounded-md bg-slate-800 p-3 md:flex-row">
-                        <div className="shrink-0"><a href="/"><img className="h-36 w-36 hover:translate-y-1"
+                        <div className="shrink-0"><a href="/"><Image className="h-36 w-36 hover:translate-y-1"
                                                                    src="/assets/project-fire.png"
-                                                                   alt="Project Fire" loading="lazy"></img></a></div>
+                                                                   alt="Project Fire" loading="lazy"></Image></a></div>
                         <div>
                             <div className="flex flex-col items-center gap-y-2 md:flex-row"><a
                                 className="hover:text-cyan-400" href="/">
@@ -116,9 +116,9 @@ export default function Home() {
                                 hendrerit dui odio id enim.</p></div>
                     </div>
                     <div className="flex flex-col items-center gap-x-8 rounded-md bg-slate-800 p-3 md:flex-row">
-                        <div className="shrink-0"><a href="/"><img className="h-36 w-36 hover:translate-y-1"
+                        <div className="shrink-0"><a href="/"><Image className="h-36 w-36 hover:translate-y-1"
                                                                    src="/assets/project-maps.png"
-                                                                   alt="Project Maps" loading="lazy"></img></a></div>
+                                                                   alt="Project Maps" loading="lazy"></Image></a></div>
                         <div>
                             <div className="flex flex-col items-center gap-y-2 md:flex-row"><a
                                 className="hover:text-cyan-400" href="/">
