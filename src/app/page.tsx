@@ -17,6 +17,7 @@ export default function Home() {
                             <rect x="15" y="4" width="6" height="16" rx="1"></rect>
                             <path d="M4 20h14"></path>
                         </svg>
+                        {/* eslint-disable-next-line react/no-unescaped-entities */}
                         Cebbb's Playground
                     </div>
                 </a>
@@ -31,6 +32,7 @@ export default function Home() {
             </div>
             <div className="mx-auto max-w-screen-lg px-3 py-6">
                 <div className="flex flex-col items-center md:flex-row md:justify-between md:gap-x-24">
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     <div><h1 className="text-3xl font-bold">Xin chào, I'm <span
                         className="bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-transparent">Cebbb</span> 👋
                     </h1><p className="mt-6 text-xl leading-9">A developer from Hanoi, Vietnam.
