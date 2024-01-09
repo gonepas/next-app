@@ -44,7 +44,7 @@ export default function Home() {
                             className="text-cyan-400 hover:underline" href="/">playground</Link>. Really happy if you
                         can
                         find something funny here. I hope giving you smile and a little positive energy for your day.
-                        <br/> Luv ya !!!</p>
+                        <br/> Luv yaaaaaa !!!</p>
                         <div className="mt-3 flex gap-1"><Link href="/"><img className="h-12 w-12 hover:translate-y-1"
                                                                              src="/assets/twitter-icon.png"
                                                                              alt="Twitter icon"
@@ -91,7 +91,9 @@ export default function Home() {
                                         className="rounded-md px-2 py-1 text-xs font-semibold bg-sky-400 text-sky-900">Tailwind.css
                                     </div>
                                     <div
-                                        className="rounded-md px-2 py-1 text-xs font-semibold bg-rose-400 text-rose-900">TypeScript
+                                        className="rounded-md px-2 py-1 text-xs font-semibold bg-rose-400 text-rose-900"
+                                    >
+                                        TypeScript
                                     </div>
                                 </div>
                             </div>
